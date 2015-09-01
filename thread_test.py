@@ -1,8 +1,9 @@
-´úÂë
+# -*- coding: utf-8 -*-
+ï¿½ï¿½ï¿½ï¿½
 
 Code highlighting produced by Actipro CodeHighlighter (freeware)http://www.CodeHighlighter.com/--> 1 #coding:utf-8
 
-#PythonµÄÏß³Ì³ØÊµÏÖ
+#Pythonï¿½ï¿½ï¿½ß³Ì³ï¿½Êµï¿½ï¿½
 
 import Queue
 import threading
@@ -10,11 +11,11 @@ import sys
 import time
 import urllib
 
-#ÌæÎÒÃÇ¹¤×÷µÄÏß³Ì³ØÖÐµÄÏß³Ì
+#ï¿½ï¿½ï¿½ï¿½ï¿½Ç¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì³ï¿½ï¿½Ðµï¿½ï¿½ß³ï¿½
 class MyThread(threading.Thread):
  def __init__(self, workQueue, resultQueue,timeout=30, **kwargs):
   threading.Thread.__init__(self, kwargs=kwargs)
-  #Ïß³ÌÔÚ½áÊøÇ°µÈ´ýÈÎÎñ¶ÓÁÐ¶à³¤Ê±¼ä
+  #ï¿½ß³ï¿½ï¿½Ú½ï¿½ï¿½ï¿½Ç°ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶à³¤Ê±ï¿½ï¿½
   self.timeout = timeout
   self.setDaemon(True)
   self.workQueue = workQueue
@@ -24,13 +25,13 @@ class MyThread(threading.Thread):
  def run(self):
   while True:
    try:
-    #´Ó¹¤×÷¶ÓÁÐÖÐ»ñÈ¡Ò»¸öÈÎÎñ
+    #ï¿½Ó¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½È¡Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     callable, args, kwargs = self.workQueue.get(timeout=self.timeout)
-    #ÎÒÃÇÒªÖ´ÐÐµÄÈÎÎñ
+    #ï¿½ï¿½ï¿½ï¿½ÒªÖ´ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½
     res = callable(args, kwargs)
-    #±¨ÈÎÎñ·µ»ØµÄ½á¹û·ÅÔÚ½á¹û¶ÓÁÐÖÐ
+    #ï¿½ï¿½ï¿½ï¿½ï¿½ñ·µ»ØµÄ½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     self.resultQueue.put(res+" | "+self.getName())    
-   except Queue.Empty: #ÈÎÎñ¶ÓÁÐ¿ÕµÄÊ±ºò½áÊø´ËÏß³Ì
+   except Queue.Empty: #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¿Õµï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
     break
    except :
     print sys.exc_info()
@@ -49,11 +50,11 @@ class ThreadPool:
    self.threads.append(thread)
 
  def wait_for_complete(self):
-  #µÈ´ýËùÓÐÏß³ÌÍê³É¡£
+  #ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½É¡ï¿½
   while len(self.threads):
    thread = self.threads.pop()
-   #µÈ´ýÏß³Ì½áÊø
-   if thread.isAlive():#ÅÐ¶ÏÏß³ÌÊÇ·ñ»¹´æ»îÀ´¾ö¶¨ÊÇ·ñµ÷ÓÃjoin
+   #ï¿½È´ï¿½ï¿½ß³Ì½ï¿½ï¿½ï¿½
+   if thread.isAlive():#ï¿½Ð¶ï¿½ï¿½ß³ï¿½ï¿½Ç·ñ»¹´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½join
     thread.join()
     
  def add_job( self, callable, *args, **kwargs ):
@@ -76,7 +77,7 @@ def test():
   time.sleep(0.2)
   tp.add_job( test_job, i, i*0.001 )
  tp.wait_for_complete()
- #´¦Àí½á¹û
+ #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  print 'result Queue\'s length == %d '% tp.resultQueue.qsize()
  while tp.resultQueue.qsize():
   print tp.resultQueue.get()
