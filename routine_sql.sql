@@ -1,5 +1,11 @@
+
+INSERT into company_checker (memberid, offer_amount) SELECT memberid, count(*) FROM offer_info GROUP BY memberid;
+
+
+
 CREATE TABLE company_checker
 (memberid CHAR(22) NOT NULL PRIMARY KEY,
+offer_amount MEDIUMINT NOT NULL,
 qualitylevel TINYINT)ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='公司库';
 
 INSERT company_checker SELECT memberid, avg(qualitylevel) FROM offer_info GROUP BY memberid;

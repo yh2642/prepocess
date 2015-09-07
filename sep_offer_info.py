@@ -16,7 +16,7 @@ class dister(threading.Thread): #The timer class is derived from the class threa
 		for ele in self.zones:
 			self.create_sub_tables(self.key)
 			self.dist_table(self.key, ele)
-			self.out_table(ele)
+			#self.out_table(ele)
 		print u"线程%s 结束！！！" % self.key
 
 	def out_table(self, zone):
