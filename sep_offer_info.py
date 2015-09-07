@@ -16,17 +16,17 @@ class dister(threading.Thread): #The timer class is derived from the class threa
 		for ele in self.zones:
 			self.create_sub_tables(self.key)
 			self.dist_table(self.key, ele)
-			#self.out_table(ele)
+			self.out_table(ele)
 		print u"线程%s 结束！！！" % self.key
 
 	def out_table(self, zone):
 		t1 = time.clock()
 		print u'开始导出%s, %s' % (zone[0], zone[1])
-		conn=MySQLdb.connect(host='localhost',user='root',passwd='root',db='test2',port=3306, charset='utf8')
+		conn=MySQLdb.connect(host='localhost',user='root',passwd='root',db='test1',port=3306, charset='utf8')
 		cur=conn.cursor()
-		path_name = 'c:/data_set/' + zone[0]+ zone[1]+'.txt'
+		path_name = '/Users/apple/Desktop/data' + zone[0]+ zone[1]+'.txt'
 		cur.execute("""SET NAMES utf8""")
-		cur.execute("""select memberid, category, sale,qualitylevel from temp_info where memberid >= %s and memberid < %s
+		cur.execute("""select memberid, category, sale,qualitylevel from offer_info where memberid >= %s and memberid < %s
 		  				into outfile %s fields terminated by ',' lines terminated by '\r\n';""", (zone[0], zone[1], path_name))
 		t2 = time.clock()
 		print u'成功导入信息%s' % path_name
@@ -40,7 +40,7 @@ class dister(threading.Thread): #The timer class is derived from the class threa
 		conn=MySQLdb.connect(host='localhost',user='root',passwd='root',db='test2',port=3306, charset='utf8')
 		cur=conn.cursor()
 		cur.execute("""SET NAMES utf8""")
-		cur.execute("""Insert into %s select * from offer_info where memberid >= '%s' and memberid < '%s';""" % ('offer_info' + key, zone[0], zone[1]))
+		cur.execute("""Insert into %s select * from test1.offer_info where memberid >= '%s' and memberid < '%s';""" % ('offer_info' + key, zone[0], zone[1]))
 		t2 = time.clock()
 		print u'成功导入数据库offer_info%s' % key
 		print 'Time used=%fs'%(t2-t1)
@@ -74,7 +74,7 @@ def test(dict, num_of_threads = 8):
 				thread.setDaemon(True)
 				thread.start()
 			thread.join()
-			print u"八个线程结束，继续！！！"
+			print u"%d个线程结束，继续！！！" % num_of_threads
 		else:
 			length = len(threading_pool)
 			for ele in range(length):
@@ -178,11 +178,12 @@ def gen_table_dict():
 if __name__ == '__main__':
 	#print gen_table_dict()
 	#print table_dict
-	dict = {'b2b78': [('b2b-156', 'b2b-158')]}
+	#dict = {'b2b78': [('b2b-156', 'b2b-158')]}
+	dict = gen_table_dict()
 	#create_sub_tables(table_dict)
 	#dist_part_table(dict)
 	#t1 = time.clock()
-	test(dict, num_of_threads=8)
+	test(dict, num_of_threads=4)
 	#out_part_table(table_dict)
 	#t2 = time.clock()
 	#print 'Time total used=%fs'%(t2-t1)
