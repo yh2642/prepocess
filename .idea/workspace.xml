@@ -25,96 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="preprocess.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6551723">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_cat/check_cat/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cat_query.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_cat/check_cat/spiders/cat_query.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.172414">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="e#24#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clean_cat_buy.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clean_cat_buy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0485437">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-              <folding>
-                <element signature="e#51#64#0" expanded="true" />
-                <marker date="1441087265439" expanded="true" signature="341:428" placeholder="select buyof..buy_offer..." />
-                <marker date="1441087265439" expanded="true" signature="341:753" placeholder="select buyof..buy_offer..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_cat/check_cat/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model_company_offer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model_company_offer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="31.551723">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_cat/check_cat/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sep_offer_info.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sep_offer_info.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.172414">
-              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="94" selection-end-column="24" />
+            <state vertical-scroll-proportion="2.8676472">
+              <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
               <folding>
                 <element signature="e#25#39#0" expanded="true" />
-                <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-                <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-                <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-                <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-                <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-                <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-                <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+                <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+                <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+                <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+                <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+                <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+                <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
               </folding>
             </state>
           </provider>
@@ -138,13 +61,13 @@
         <option value="$PROJECT_DIR$/dict_json.py" />
         <option value="$PROJECT_DIR$/result.json" />
         <option value="$PROJECT_DIR$/model_company_offer.py" />
-        <option value="$PROJECT_DIR$/sep_offer_info.py" />
         <option value="$PROJECT_DIR$/to_mysql.txt" />
         <option value="$PROJECT_DIR$/to_mongodb.json" />
         <option value="$PROJECT_DIR$/thread_test.py" />
         <option value="$PROJECT_DIR$/check_cat/check_cat/spiders/cat_query.py" />
         <option value="$PROJECT_DIR$/preprocess.py" />
         <option value="$PROJECT_DIR$/clean_cat_buy.py" />
+        <option value="$PROJECT_DIR$/sep_offer_info.py" />
       </list>
     </option>
   </component>
@@ -156,10 +79,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="295" />
-    <option name="y" value="24" />
-    <option name="width" value="479" />
-    <option name="height" value="744" />
+    <option name="x" value="111" />
+    <option name="y" value="137" />
+    <option name="width" value="939" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,20 +124,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="preprocess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="check_cat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,10 +369,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="24" width="479" height="744" extended-state="4" />
+    <frame x="111" y="137" width="939" height="704" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.018735362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22322436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -471,7 +380,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3957307" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49298245" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -501,10 +410,65 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/model_company_offer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean_cat_buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#64#0" expanded="true" />
+            <marker date="1441265840000" expanded="true" signature="-1:-1" placeholder="select DISTI..buy_offer..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -519,13 +483,12 @@
           <caret line="158" column="59" selection-start-line="158" selection-start-column="59" selection-end-line="158" selection-end-column="59" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -534,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -543,7 +505,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -560,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,13 +530,12 @@
           <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -585,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +552,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,13 +585,12 @@
           <caret line="52" column="98" selection-start-line="52" selection-start-column="98" selection-end-line="52" selection-end-column="98" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -643,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +607,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,10 +626,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/sever_crawler/sql/sql_routine">
+    <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_company_offer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,13 +681,12 @@
           <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -708,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,57 +703,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/sever_crawler/sql/sql_routine">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="111" column="29" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_company_offer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -786,13 +722,12 @@
           <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -801,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +744,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,13 +763,12 @@
           <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
@@ -845,7 +778,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#25#35#0" expanded="false" />
+            <element signature="e#25#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -864,21 +797,13 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/sever_crawler/api_db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52807015">
-          <caret line="242" column="23" selection-start-line="242" selection-start-column="12" selection-end-line="242" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -889,18 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/sever_crawler/sql/sql_routine">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18339768">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2189781">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -908,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1635" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -916,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46532845">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,6 +839,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clean_cat_buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3905192">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#51#64#0" expanded="true" />
+            <marker date="1441265840000" expanded="true" signature="-1:-1" placeholder="select DISTI..buy_offer..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_company_offer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7629797">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/spiders/cat_query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47404063">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.101580136">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -936,65 +890,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/spiders/cat_query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.172414">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#24#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.172414">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="94" selection-end-column="24" />
-          <folding>
-            <element signature="e#25#39#0" expanded="true" />
-            <marker date="1440682911119" expanded="true" signature="722:898" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="1714:1725" placeholder="DROP TABLE m..." />
-            <marker date="1440682911119" expanded="true" signature="1749:2021" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1440682911119" expanded="true" signature="2766:2941" placeholder="select membe..temp_info2..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3473" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3395:3477" placeholder="Insert into ..." />
-            <marker date="1440682911119" expanded="true" signature="3410:3473" placeholder="select * fro..temp_info2..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6551723">
+        <state vertical-scroll-proportion="0.3047404">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_cat/check_cat/items.py">
+    <entry file="file://$PROJECT_DIR$/sep_offer_info.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_company_offer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="31.551723">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clean_cat_buy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0485437">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state vertical-scroll-proportion="2.8676472">
+          <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
           <folding>
-            <element signature="e#51#64#0" expanded="true" />
-            <marker date="1441087265439" expanded="true" signature="341:428" placeholder="select buyof..buy_offer..." />
-            <marker date="1441087265439" expanded="true" signature="341:753" placeholder="select buyof..buy_offer..." />
+            <element signature="e#25#39#0" expanded="true" />
+            <marker date="1441598600884" expanded="true" signature="793:968" placeholder="select membe..temp_info2..." />
+            <marker date="1441598600884" expanded="true" signature="1394:1476" placeholder="Insert into ..." />
+            <marker date="1441598600884" expanded="true" signature="1409:1476" placeholder="select * fro..offer_info..." />
+            <marker date="1441598600884" expanded="true" signature="1761:2033" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="2963:3235" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1441598600884" expanded="true" signature="3985:4160" placeholder="select membe..temp_info2..." />
           </folding>
         </state>
       </provider>
